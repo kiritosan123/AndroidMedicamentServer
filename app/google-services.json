@@ -1,0 +1,203 @@
+{
+  "project_info": {
+    "project_number": "532420866751",
+    "firebase_url": "https://farmacia-130ce.firebaseio.com",
+    "project_id": "farmacia-130ce",
+    "storage_bucket": "farmacia-130ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532420866751:android:83fce36eaedf586d",
+        "android_client_info": {
+          "package_name": "com.example.david.escrifarmacia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532420866751-bohkbtdtohdn6qm5imr5o7rh4qljil17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.david.escrifarmacia",
+            "certificate_hash": "c3d825c0aeec2abd7e97ddcb9e4859c79271f741"
+          }
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFj0jukrEHa3Vjfir31H4XWcLc5uZmkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532420866751:android:46f92909d08ca843",
+        "android_client_info": {
+          "package_name": "com.example.kirito.androidmedicamentserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532420866751-ut30qktg5osiq3c9u6ae2lv6lt2iuhkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirito.androidmedicamentserver",
+            "certificate_hash": "10277876d653321a307fac85ddd7e0aef38b2d5e"
+          }
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFj0jukrEHa3Vjfir31H4XWcLc5uZmkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532420866751:android:1bce7f0ec33a6b01",
+        "android_client_info": {
+          "package_name": "com.example.kirito.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532420866751-uuhmikiu8n6kjdu6o7e4i0i7as3518go.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirito.myapplication",
+            "certificate_hash": "10277876d653321a307fac85ddd7e0aef38b2d5e"
+          }
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFj0jukrEHa3Vjfir31H4XWcLc5uZmkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532420866751:android:4e7a7feab892257b",
+        "android_client_info": {
+          "package_name": "com.example.kirito.winfarmacia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "532420866751-30a6v4e5j7etfet8kc5f14eqi8na0tmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kirito.winfarmacia",
+            "certificate_hash": "a4f5403621be17f4c910da86b80d0fbb3f653f15"
+          }
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFj0jukrEHa3Vjfir31H4XWcLc5uZmkc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "532420866751-dpp6eivep1ap3u7tq88mb9k59tnk8ahd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
