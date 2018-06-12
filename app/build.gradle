@@ -29,6 +29,10 @@ dependencies {
 
     //Adicion de librerias
     //conexion con FIREBASE
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+
+    implementation 'com.google.firebase:firebase-storage:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
     implementation 'com.google.firebase:firebase-core:11.8.0'
     //implementation 'com.google.firebase:firebase-core:12.0.1'
     implementation 'com.google.firebase:firebase-database:11.8.0'
@@ -39,6 +43,9 @@ dependencies {
 
     implementation 'com.android.support:cardview-v7:26.+'
     implementation 'com.android.support:recyclerview-v7:26.+'
+
+    //imagenes library
+    implementation 'com.squareup.picasso:picasso:2.5.2'
 }
 
 apply plugin: 'com.google.gms.google-services'
