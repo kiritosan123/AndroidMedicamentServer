@@ -71,7 +71,7 @@ public class Home extends AppCompatActivity
     Uri saveUri;
 
     DrawerLayout drawer;
-    private final int PICK_IMAGE_REQUEST = 71;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -230,7 +230,7 @@ public class Home extends AppCompatActivity
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK
+        if(requestCode == Common.PICK_IMAGE_REQUEST && resultCode == RESULT_OK
                 && data != null && data.getData() != null){
             saveUri = data.getData();
             btnSelect.setText("Imagen Seleccionada..!");
@@ -241,9 +241,10 @@ public class Home extends AppCompatActivity
         Intent intent = new Intent();
         intent.setType("image/*");
         intent.setAction(intent.ACTION_GET_CONTENT);
-        startActivityForResult(Intent.createChooser(intent, "Selecciona la Imagen"), PICK_IMAGE_REQUEST);
+        startActivityForResult(Intent.createChooser(intent, "Selecciona la Imagen"), Common.PICK_IMAGE_REQUEST);
     }
 
+    //Funcion para cargar el menu tanto de las categorias como sus elementos al hacer click
     private void loadMenu() {
         adapter = new FirebaseRecyclerAdapter<Category, MenuViewHolder>(
                 Category.class,
@@ -261,7 +262,10 @@ public class Home extends AppCompatActivity
                 viewHolder.setItemClickListener(new ItemClickListener() {
                     @Override
                     public void onClick(View view, int position, boolean inLongClick) {
-
+                        // Enviamos el Id de la categoria e iniciamos la nueva Actividad
+                        Intent medicamentList= new  Intent(Home.this, MedicamentList.class);
+                        medicamentList.putExtra("CategoryId", adapter.getRef(position).getKey());
+                        startActivity(medicamentList);
                     }
                 });
             }

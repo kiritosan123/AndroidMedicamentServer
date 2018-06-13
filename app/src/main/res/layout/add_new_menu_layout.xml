@@ -36,6 +36,7 @@
             <info.hoang8f.widget.FButton
                 android:id="@+id/btnSelect"
                 android:text="SELECCIONAR"
+                android:textSize="15sp"
                 android:textColor="@android:color/white"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
@@ -50,6 +51,7 @@
             <info.hoang8f.widget.FButton
                 android:id="@+id/btnUpLoad"
                 android:text="SUBIR"
+                android:textSize="15sp"
                 android:textColor="@android:color/white"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="8dp"
