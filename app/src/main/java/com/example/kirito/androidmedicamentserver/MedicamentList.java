@@ -57,7 +57,7 @@ public class MedicamentList extends AppCompatActivity {
     FirebaseStorage storage;
     StorageReference storageReference;
 
-    String categoryId;
+    String categoryId = "";
 
     FirebaseRecyclerAdapter<Medicament, MedicamentViewHolder> adapter;
 
@@ -181,9 +181,9 @@ public class MedicamentList extends AppCompatActivity {
                                     //Ingresamos la nueva Categoria si la imagen descargada y podemos descargar el link
                                     newMedicament = new Medicament();
                                     newMedicament.setName(edtName.getText().toString());
-                                    newMedicament.setName(edtDescription.getText().toString());
-                                    newMedicament.setName(edtPrice.getText().toString());
-                                    newMedicament.setName(edtDiscount.getText().toString());
+                                    newMedicament.setDescription(edtDescription.getText().toString());
+                                    newMedicament.setPrice(edtPrice.getText().toString());
+                                    newMedicament.setDiscount(edtDiscount.getText().toString());
                                     newMedicament.setMenuId(categoryId);
                                     newMedicament.setImage(uri.toString());
 
